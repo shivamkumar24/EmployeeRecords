@@ -1,0 +1,56 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+h1~div{
+    display: flex;
+    
+}
+form{
+    width: 25%;
+    height: auto;
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+}
+
+form>label{ font-weight: bold; }
+form>input,select{
+    width: 90%;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+table{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table td, table th{
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: rgb(224, 165, 165);
+}
+table tr:hover{
+    background-color: whitesmoke;
+}
+table th{
+    padding: 12px 2px;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
